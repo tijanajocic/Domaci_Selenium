@@ -24,7 +24,7 @@ public class zadatak1 {
 			List<WebElement> brisanjaElemenata = drajver
 					.findElements(By.xpath("//*[contains(@class, 'col-md-12')]//button"));
 			if (brisanjaElemenata.size() == elementi.size() - i) {
-				System.out.println("Obrisan je element.");
+				System.out.println("Jeste");
 			} else {
 				System.out.println("Nije");
 			}
@@ -33,3 +33,11 @@ public class zadatak1 {
 		drajver.close();
 	}
 }
+
+
+//
+//1.Zad
+//Napisati program koji:
+//Ucitava stranicu https://s.bootsnipp.com/iframe/Dq2X
+//Klikce na svaki iks da ugasi obavestenje i proverava da li se nakon klika element obrisao sa stranice i ispisuje odgovarajuce poruke (OVO JE POTREBNO RESITI KORISCENJEM PETLJE)
+//POMOC: Brisite elemente odozdo.
