@@ -38,12 +38,11 @@ public class zadatak1 {
 		} else {
 			System.out.println("Nije.");
 		}
+		drajver.close();
 
 	}
 
 }
-
-
 
 //
 //1.Zadatak
@@ -51,4 +50,3 @@ public class zadatak1 {
 //Ucitava stranicu https://www.udemy.com/courses/search/?src=ukw&q=slksd
 //Klikce na dugme za jezik i proverava da li se prikazuje dijalog za promenu jezika
 //Stampa u konzoli tekst “Dijalog se prikazao”
-
