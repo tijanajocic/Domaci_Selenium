@@ -34,7 +34,6 @@ public class zadatak1 {
 	}
 }
 
-
 //
 //1.Zad
 //Napisati program koji:
